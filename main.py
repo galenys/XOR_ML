@@ -8,7 +8,7 @@ import torch.optim as optim
 import random
 
 # TRAINING DATA
-train_set = [] # (embed_vector_word, context_vector_word, similarity classification)
+train_set = []
 for i in range(10_000):
     x = random.choice([1, 0])
     y = random.choice([1, 0])
